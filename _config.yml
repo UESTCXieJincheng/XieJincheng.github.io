@@ -1,4 +1,7 @@
-# Hexo Configuration
+deploy:
+    type: git
+    repo: git@github.com:UESTCXieJincheng/Sam.github.io.git  #这里的网址填你自己的
+    branch: master   # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -79,3 +82,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+deploy:
+    type: git
+    repo: git@github.com:UESTCXieJincheng/XieJincheng.github.io.git 
+    branch: master   
